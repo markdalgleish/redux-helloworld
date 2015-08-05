@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Redux Hello World</title>
+  </head>
+  <body>
+    <div id="outlet"><%- html %></div>
+    <script>window.__redux_data__ = <%- JSON.stringify(data) %>;</script>
+    <% for (var chunk in assets) { -%>
+    <script src="<%= assets[chunk] %>"></script>
+    <% } -%>
+  </body>
+</html>
