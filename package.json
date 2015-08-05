@@ -5,7 +5,7 @@
   "description": "Playing around with Redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha src/**/*.test.js --recursive --compilers js:babel/register",
     "start": "rm -rf dist/* && webpack"
   },
   "repository": {
@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/markdalgleish/redux-todos",
   "devDependencies": {
+    "babel": "^5.8.20",
     "babel-core": "^4.7.13",
     "babel-loader": "^5.0.0",
     "ejs": "^2.3.1",
+    "mocha": "^2.2.5",
     "react": "^0.13.1",
     "react-redux": "^0.2.2",
     "react-router": "^0.13.2",

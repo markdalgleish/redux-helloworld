@@ -1,7 +1,7 @@
 import {
   INCREMENT,
   DECREMENT
-} from './actionTypes';
+} from '../actionTypes';
 
 const initialState = {
   count: 0
