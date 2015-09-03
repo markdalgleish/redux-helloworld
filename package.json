@@ -28,7 +28,7 @@
     "react-redux": "^0.2.2",
     "react-router": "^0.13.2",
     "redux": "^1.0.0-rc",
-    "static-site-generator-webpack-plugin": "^1.0.0",
+    "static-site-generator-webpack-plugin": "^1.1.2",
     "webpack": "^1.7.3"
   }
 }
